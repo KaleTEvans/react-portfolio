@@ -17,7 +17,7 @@ function Navigation(props) {
                     Kale Evans
                 </a>
             </h2>
-            <Nav variant='tabs' defaultActiveKey='/About' className='justify-content-end'>
+            <Nav variant='tabs' defaultActiveKey='/About' className='justify-content-end mr-2'>
                 <Nav.Item>
                     <Nav.Link href='/About'>About Me</Nav.Link>
                 </Nav.Item>

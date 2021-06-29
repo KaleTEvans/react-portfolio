@@ -26,3 +26,17 @@ header {
   background-color: aliceblue;
 }
 
+.jumbo {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.about-title {
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.about-text {
+  font-size: 18px;
+}
+
