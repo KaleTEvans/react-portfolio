@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import selfPortrait from '../../assets/photos/self-portrait.jpg';
 
-function About(props) {
+function About() {
 
     return (
         <section>
@@ -42,40 +42,40 @@ function About(props) {
                         </p>
                     </Col>
                     <Col>
-                    <div class='row justify-content-center'>
-                        <div class='sw html'>
-                            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
+                        <div class='row justify-content-center'>
+                            <div class='sw html'>
+                                <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
+                            </div>
+                            <div class='sw css'>
+                                <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+                            </div>
+                            <div class='sw js'>
+                                <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+                            </div>
                         </div>
-                        <div class='sw css'>
-                            <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+                        <div class='row justify-content-center'>
+                            <div class='sw sql'>
+                                <img src="https://img.icons8.com/ios-filled/50/000000/sql.png"/>
+                            </div>
+                            <div class='sw node'>
+                                <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
+                            </div>
+                            <div class='sw git'>
+                                <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+                            </div>
                         </div>
-                        <div class='sw js'>
-                            <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+                        <div class='row justify-content-center'>
+                            <div class='sw vs'>
+                                <img src="https://img.icons8.com/color/48/000000/visual-studio.png"/>
+                            </div>
+                            <div class='sw excel'>
+                                <img src="https://img.icons8.com/fluent/48/000000/microsoft-excel-2019.png"/>
+                            </div>
+                            <div class='sw cplus'>
+                                <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
+                            </div>
                         </div>
-                    </div>
-                    <div class='row justify-content-center'>
-                        <div class='sw sql'>
-                            <img src="https://img.icons8.com/ios-filled/50/000000/sql.png"/>
-                        </div>
-                        <div class='sw node'>
-                            <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
-                        </div>
-                        <div class='sw git'>
-                            <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
-                        </div>
-                    </div>
-                    <div class='row justify-content-center'>
-                        <div class='sw vs'>
-                            <img src="https://img.icons8.com/color/48/000000/visual-studio.png"/>
-                        </div>
-                        <div class='sw excel'>
-                            <img src="https://img.icons8.com/fluent/48/000000/microsoft-excel-2019.png"/>
-                        </div>
-                        <div class='sw cplus'>
-                            <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
-                        </div>
-                    </div>
-                </Col>
+                    </Col>
                 </Row>
             </Container>
         </section>
