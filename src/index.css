@@ -40,6 +40,11 @@ header {
   font-size: 18px;
 }
 
+.project-link, .project-description {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   margin-top: 50px;
 }
