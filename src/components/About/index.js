@@ -17,7 +17,7 @@ function About() {
                     <Col>
                         <img src={selfPortrait} style={{ width: "100%" }} alt='self portrait' />
                     </Col>
-                    <Col xs={8}>
+                    <Col xs={12} xl={8}>
                         <p className='about-text'>
                             Currently, I work as a Systems Engineer for the Boeing Company. I graduated from the University of Oklahoma in 2019
                             with a Bachelor's degree in Aerospace Engineering, and have been in Oklahoma for some time now. Being originally from 
@@ -31,7 +31,7 @@ function About() {
                 </Row>
                 <h3 className='about-title mt-3 text-right'>Skills and Interests</h3>
                 <Row>
-                    <Col xs={10}>
+                    <Col xs={12} xl={8}>
                         <p className='about-text'>
                             As a Full Stack Developer I have a wide range of knowledge in JavaScript, CSS, and HTML. While in college, I also had
                             experience working with C++ to design embedded systems, using methods such as state machines. I also have proficiency

@@ -4,6 +4,8 @@ import Navigation from './components/Navigation';
 import About from './components/About';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 import './App.css';
 
@@ -23,6 +25,12 @@ function App() {
         )}
         {eventKey === 'Portfolio' && (
           <Portfolio />
+        )}
+        {eventKey === 'Contact' && (
+          <Contact />
+        )}
+        {eventKey === 'Resume' && (
+          <Resume />
         )}
       </main>
       <Footer></Footer>

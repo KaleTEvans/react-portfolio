@@ -45,6 +45,53 @@ header {
   justify-content: center;
 }
 
+a {
+  color: black;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 0;
+}
+
+label {
+  margin-right: 20px;
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	padding: 5px;
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: lightblue;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+.skillset {
+  list-style: none;
+  padding: 0;
+}
+
+.last-skill {
+  margin-bottom: 90px;
+}
+
 footer {
   margin-top: 50px;
 }

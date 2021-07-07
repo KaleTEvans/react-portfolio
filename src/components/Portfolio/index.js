@@ -76,16 +76,16 @@ function Portfolio() {
             <Container className='justify-content-center mt-5'>
                 <h3 className='project-title text-center'>Other Projects are Currently Being Prepared</h3>
                 <div className='project'>
-                    <a href="/" target="_blank" class='project-link'>
-                        <img src={comingSoon} style={{ width: "75%", height: "auto" }} alt='coming soon' />
+                    <a href="/" class='project-link'>
+                        <img src={comingSoon} style={{ height: "50%" }} alt='coming soon' />
                     </a>
                 </div>          
             </Container>
             <Container className='justify-content-center mt-5'>
                 <h3 className='project-title text-center'>Other Projects are Currently Being Prepared</h3>
                 <div className='project'>
-                    <a href="/" target="_blank" class='project-link'>
-                        <img src={comingSoon} style={{ width: "75%", height: "auto" }} alt='coming soon' />
+                    <a href="/" class='project-link'>
+                        <img src={comingSoon} style={{ height: "50%" }} alt='coming soon' />
                     </a>
                 </div>          
             </Container>
